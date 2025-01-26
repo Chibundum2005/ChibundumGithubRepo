@@ -1,0 +1,11 @@
+C:\Users\Chib\Documents\rust\os_with_bootloader\target\debug\deps\libfutures_lite-0f8af59aa6abe39d.rmeta: C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\lib.rs C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\future.rs C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\prelude.rs C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\stream.rs C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\io.rs
+
+C:\Users\Chib\Documents\rust\os_with_bootloader\target\debug\deps\libfutures_lite-0f8af59aa6abe39d.rlib: C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\lib.rs C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\future.rs C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\prelude.rs C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\stream.rs C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\io.rs
+
+C:\Users\Chib\Documents\rust\os_with_bootloader\target\debug\deps\futures_lite-0f8af59aa6abe39d.d: C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\lib.rs C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\future.rs C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\prelude.rs C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\stream.rs C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\io.rs
+
+C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\lib.rs:
+C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\future.rs:
+C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\prelude.rs:
+C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\stream.rs:
+C:\Users\Chib\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\futures-lite-1.13.0\src\io.rs:
