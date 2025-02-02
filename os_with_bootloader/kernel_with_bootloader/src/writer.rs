@@ -12,9 +12,8 @@ const LINE_SPACING: usize = 2;
 const LETTER_SPACING: usize = 0;
 const BORDER_PADDING: usize = 1;
 
-// ANSI-like color codes
-const COLOR_BLUE: [u8; 3] = [255, 0, 0]; // RGB for blue
-const COLOR_WHITE: [u8; 3] = [255, 255, 255]; // RGB for white (default color)
+const COLOR_BLUE: [u8; 3] = [255, 0, 0]; 
+const COLOR_WHITE: [u8; 3] = [255, 255, 255]; 
 
 fn get_char_raster(c: char) -> RasterizedChar {
     fn get(c: char) -> Option<RasterizedChar> {
@@ -44,7 +43,6 @@ impl FrameBufferWriter {
         writer
     }
 
-    /// Prints text with automatic wrapping, scrolling, and ANSI-like escape sequences.
     pub fn print(&mut self, text: &str) {
         let mut chars = text.chars().peekable();
         while let Some(c) = chars.next() {
@@ -52,9 +50,9 @@ impl FrameBufferWriter {
                 '\\' => {
                     if let Some(next) = chars.next() {
                         match next {
-                            'c' => self.current_color = COLOR_BLUE,  // Change to blue
-                            'r' => self.current_color = COLOR_WHITE, // Reset to white
-                            _ => self.write_char(c),                // Unknown sequence
+                            'c' => self.current_color = COLOR_BLUE,  
+                            'r' => self.current_color = COLOR_WHITE, 
+                            _ => self.write_char(c),                
                         }
                     }
                 }
@@ -77,10 +75,8 @@ impl FrameBufferWriter {
         let row_height = CHAR_RASTER_HEIGHT.val() + LINE_SPACING;
         let offset = self.info.stride * row_height;
 
-        // Shift framebuffer content up
         self.framebuffer.copy_within(offset.., 0);
 
-        // Clear the last row
         let start_of_last_row = self.framebuffer.len() - self.width() * row_height;
         for pixel in &mut self.framebuffer[start_of_last_row..] {
             *pixel = 0;
@@ -160,6 +156,13 @@ impl FrameBufferWriter {
     fn height(&self) -> usize {
         self.info.height
     }
+}
+
+#[macro_export]
+macro_rules! print {
+    ($writer:expr, $text:expr) => {
+        $writer.print($text);
+    };
 }
 
 unsafe impl Send for FrameBufferWriter {}
